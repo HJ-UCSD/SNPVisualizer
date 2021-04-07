@@ -1,3 +1,4 @@
+#handles backend work of app, specifically the translations
 server = (function(input, output,session) {
   output$Peptides_Output<-renderDataTable({
     
