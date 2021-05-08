@@ -102,7 +102,7 @@ ui2 <- function(){tagList(fluidPage(
       dataTableOutput("Peptides_Output"),
       helpText("If an error is produced when entering a SNP Location, the SNP does not exist. Please enter a different one."),
       helpText("If a cell is empty, the Mass Spec or the Modification does not exist."),
-      helpText("Created by Henry Jiao in 2018 for the lab of Dr. Cohen in the USC School of Gerontology")
+      helpText("Created by Henry in 2018 for the lab of Dr. Cohen in the USC School of Gerontology")
     )
   )
   
